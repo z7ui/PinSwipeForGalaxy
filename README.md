@@ -3,7 +3,9 @@
 三星 One UI 的锁屏数字密码，支持**按住不松手、划过即输入**：手指按在第一位数字上不抬起来，
 一路划过去，按划过的顺序依次输入；**长按 ⌫ 清空**。
 
-实测机型：**Galaxy S25 Ultra（SM-S9380）· One UI 8.0.5 · Android 16（SDK 36）**
+小米hyperos版：https://github.com/z7ui/PinSwipe
+
+实测机型：**Galaxy S25 Ultra（SM-S9380）· One UI 8.5 · Android 16（SDK 36）**
 
 > 这是**独立的一个软件**：跟 HyperOS 那个版本是两个项目、两个包名、分开发布。
 > 两边都 hook SystemUI，所以同一台机器上只能装一个，否则一次划动会输入两遍。
