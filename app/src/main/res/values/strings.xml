@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PIN 滑动输入 for Galaxy</string>
+    <string name="xposed_description">三星 One UI 版：锁屏 PIN 支持按住不松手、划过即输入，长按 ⌫ 清空。只作用于 SystemUI 的锁屏键盘，原生点按路径完全不动。</string>
+    <string name="demo_title">滑动输入 · 演示</string>
+</resources>
