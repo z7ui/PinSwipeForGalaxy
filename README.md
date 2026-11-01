@@ -136,4 +136,18 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 
 ---
 
+## 签名
+
+> 2026-11-01 起，正式发布包从 Android debug 签名切换到独立正式密钥
+> （RSA 4096 / SHA384withRSA / 30 年）。
+
+- **证书指纹（SHA-256）**：`7F:D5:8E:38:C9:C3:35:51:AC:AE:FB:B3:54:56:73:1A:51:BA:AF:90:1C:5E:8A:FB:30:EA:3A:D2:C5:49:F2:A5`
+- ⚠️ **与旧版不兼容**：旧版是 debug 签名，签名不同，老用户**必须先卸载再安装**，
+  否则系统拒绝覆盖升级（数据会丢）。
+- **两套签名不能混用**：之后请始终用正式密钥签名发布。
+
+密钥已归档到自建服务器（加密），不入 git 仓库。
+
+---
+
 作者 **Deepseek** · B站 **@z7ui**
